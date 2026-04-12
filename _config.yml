@@ -25,12 +25,13 @@ description: >- # 각종 기록을 정리하기 위한 일상공간
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://ahyhfam.github.io"
+baseurl: "" 
 
 github:
   username: ahyhfam # change to your GitHub username
 
 twitter:
-  username: none # change to your Twitter username
+  username: ahyhfam # change to your Twitter username
 
 social:
   # Change to your full name.

@@ -13,7 +13,7 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
 
-gen "jekyll"
+gem "jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-include-cache"

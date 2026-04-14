@@ -16,6 +16,7 @@ gem "wdm", "~> 0.2.0", :platforms => [:windows]
 gem "jekyll"
 
 group :jekyll_plugins do
+  gem "jekyll-paginate"
   gem "jekyll-include-cache"
   gem "jekyll-seo-tag"
 end

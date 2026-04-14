@@ -25,6 +25,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
     strategy:
       matrix:
         ruby: ["3.3", "3.4"]
